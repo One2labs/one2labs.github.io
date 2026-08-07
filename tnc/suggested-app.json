@@ -8,7 +8,7 @@
       "title": "Phone App",
       "subtitle": "Smart phone utilities.",
       "packageName": "com.one2labs.phone",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/8vHZm1p9TdTUI1moCqD07d5A4iDes9Pyoco5CnLdDoKVjS-CPUTyZ4RkZckaNcA13RN0-dDGZ_yXCtsCSs0a3xk=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -18,7 +18,7 @@
       "title": "Neu PDF & eBook Reader",
       "subtitle": "Read PDFs, EPUBs and comics offline.",
       "packageName": "com.lexora.reader",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/iXvzFgZ-rXXbVK54YUYnkfzph9rtUtGMKflb1fMPdt-N6XYl24QUzE-bNU3rnzImmKcKwERKnpN1IL_tI8ZIuRE=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -28,7 +28,7 @@
       "title": "Gallery",
       "subtitle": "Browse and organize your photos.",
       "packageName": "com.vistia.gallery",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/e7a2RuIkwO9JQG9isThuDKQ3kfg3ZDWkdWOrsfgq3iRNVBtLC8V2F4DRYPywglkeBQpo05aIKMiHHJfUrI_mng=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -38,7 +38,7 @@
       "title": "Expanse",
       "subtitle": "Track your expenses easily.",
       "packageName": "com.andmobi.expanse",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/udg9qDA3cxAXwIhzzH4wyxr2ZSqc7kWWUj4LYYkQT6jtFRngJK-U0HLoIWMO454Nhwu1wSeFj24l2KWF2LKOMpM=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -48,7 +48,7 @@
       "title": "PDF Toolkit",
       "subtitle": "All-in-one PDF tools.",
       "packageName": "com.one2labs.pdftoolkit",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/dwHEFCf_c9UcpxsH2KWPZTG9z8wLq-RUEbu-EvB9W17Aw-X9ltax84Ea9M76JkqDerIwMuvubAj3HwkrNM1ikg=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -58,7 +58,7 @@
       "title": "Phone Cleaner",
       "subtitle": "Clean junk and free storage.",
       "packageName": "com.andmobi.cleaner",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/bLzqBX6AjytOaGnTuZT0tG5gzfb8xNJn1b2vgRfG-PBtT4oHzVTG26kjb0hL7Val2Qo1MzuG2AHSnwam6CmMHqw=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -68,7 +68,7 @@
       "title": "HD Player",
       "subtitle": "Play videos in high quality.",
       "packageName": "com.vidxlab.hdplayer",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/-PTGOSmtELXn2F4BaN6M1_DeamGNRaXg5uzZMYuu6wwkAS0qr0Tx7lxLNk8csKlI3iZHWd5bVMXD_8Lhpv2VF40=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -78,7 +78,7 @@
       "title": "Phone Dialer",
       "subtitle": "Fast and simple calling experience.",
       "packageName": "com.andmobi.phone",
-      "icon": "",
+      "icon": "https://play-lh.googleusercontent.com/U6qiRuW-1GhhUHR5oVRHQuwcHCPxDKpTuqNauAJfrFAOIsy9YwCTXKoIOLBOaG6SXyRJiYCo2peUpkHiji_xYA=w480-h960-rw",
       "buttonText": "Install"
     }
   ]
