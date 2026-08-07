@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "phone",
+      "enabled": true,
+      "priority": 1,
+      "title": "Phone App",
+      "subtitle": "Smart phone utilities.",
+      "packageName": "com.one2labs.phone",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "reader",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu PDF & eBook Reader",
+      "subtitle": "Read PDFs, EPUBs and comics offline.",
+      "packageName": "com.lexora.reader",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "gallery",
+      "enabled": true,
+      "priority": 3,
+      "title": "Gallery",
+      "subtitle": "Browse and organize your photos.",
+      "packageName": "com.vistia.gallery",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "expanse",
+      "enabled": true,
+      "priority": 4,
+      "title": "Expanse",
+      "subtitle": "Track your expenses easily.",
+      "packageName": "com.andmobi.expanse",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "pdftoolkit",
+      "enabled": true,
+      "priority": 5,
+      "title": "PDF Toolkit",
+      "subtitle": "All-in-one PDF tools.",
+      "packageName": "com.one2labs.pdftoolkit",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "cleaner",
+      "enabled": true,
+      "priority": 6,
+      "title": "Phone Cleaner",
+      "subtitle": "Clean junk and free storage.",
+      "packageName": "com.andmobi.cleaner",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "hdplayer",
+      "enabled": true,
+      "priority": 7,
+      "title": "HD Player",
+      "subtitle": "Play videos in high quality.",
+      "packageName": "com.vidxlab.hdplayer",
+      "icon": "",
+      "buttonText": "Install"
+    },
+    {
+      "id": "dialer",
+      "enabled": true,
+      "priority": 8,
+      "title": "Phone Dialer",
+      "subtitle": "Fast and simple calling experience.",
+      "packageName": "com.andmobi.phone",
+      "icon": "",
+      "buttonText": "Install"
+    }
+  ]
+}
