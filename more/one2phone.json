@@ -3,16 +3,6 @@
   "enabled": true,
   "apps": [
     {
-      "id": "phone",
-      "enabled": true,
-      "priority": 1,
-      "title": "Phone App",
-      "subtitle": "Smart phone utilities.",
-      "packageName": "com.one2labs.phone",
-      "icon": "https://play-lh.googleusercontent.com/8vHZm1p9TdTUI1moCqD07d5A4iDes9Pyoco5CnLdDoKVjS-CPUTyZ4RkZckaNcA13RN0-dDGZ_yXCtsCSs0a3xk=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
       "id": "reader",
       "enabled": true,
       "priority": 2,
