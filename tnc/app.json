@@ -1,6 +1,6 @@
 {
   "flags": {
-    "showPromotedApps": false,
+    "showPromotedApps": true,
     "disableSDK": false
   },
   "data": {
@@ -10,6 +10,30 @@
         "packageName": "com.andmobi.phone",
         "category": "utilities",
         "iconLogo": "https://play-lh.googleusercontent.com/IKx1p9LuefH92kJnF4VTYNoKJach65y5Hpc6TxiD2oemRKGYwQUJhFmamxv_fTMCN-KfQVx0YnELUDJ1MiyHyB0=w480-h960-rw"
+      },
+      {
+        "name": "Only Contacts – Private",
+        "packageName": "com.andmobi.contacts",
+        "category": "utilities",
+        "iconLogo": "https://play-lh.googleusercontent.com/1hUweubMLTVmbedS4l2grLF5lr9aVKn8wYdRERgPxzsSl9XVq7J6ZVy04qc_gLkCTNS6xdHARCk0wcRObl12ww=w480-h960-rw"
+      },
+      {
+        "name": "Only Messages – SMS App",
+        "packageName": "com.andmobi.messages",
+        "category": "utilities",
+        "iconLogo": "https://play-lh.googleusercontent.com/kSVajK_-ij2QBjxy9K1DP9QQ8rmuOinJZ02x0R_FbGJNeZKmEFPKomdsBiigcIByjZLm-byK-HDqmO3MqM1TLA=w480-h960-rw"
+      },
+      {
+        "name": "Only Gallery – Photo Vault",
+        "packageName": "com.andmobi.gallery",
+        "category": "tools",
+        "iconLogo": "https://play-lh.googleusercontent.com/z4jE7CzuvvEcJQnzcz5v4dWZlcFLNBF6CUhrsIRWelwmpj4Ok_13n3DfUbFGlWcIQvtj0jTPfaGOo1fPZf9noO0=w480-h960-rw"
+      },
+      {
+        "name": "VidX – 4K Video Player",
+        "packageName": "com.andmobi.onlyplay",
+        "category": "tools",
+        "iconLogo": "https://play-lh.googleusercontent.com/YUuBX74OoqCB1CTrq37o_nsgIWeyTOZVrPhzVl-pJNKKaxkbKax6sfL0rGywCw_mVR276dzkDxsz-rfSPlDGnIQ=w480-h960-rw"
       }
     ]
   }
