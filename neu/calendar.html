@@ -185,26 +185,25 @@
         <strong>Core Privacy Principle:</strong>
         Your calendar events, reminders, schedules, and related
         calendar information are processed on your device.
-        One2 Labs does not transmit your private calendar information
+        One2 Labs does not transmit your private calendar data
         to its own servers.
     </div>
 
     <h2>1. Information We Access and How We Use It</h2>
 
-    <h3>1.1. Calendar Events</h3>
+    <h3>1.1. Calendar Events and Reminders</h3>
 
     <p>
         <strong>Data Accessed:</strong>
-        Calendar events, event titles, dates, times, descriptions,
-        locations, recurrence information, reminders, and other
-        calendar information stored on your device, depending on
-        the information available in your calendars.
+        Calendar events, reminders, event titles, dates, times,
+        descriptions, locations, recurrence information, and other
+        calendar information stored on your device, where available.
     </p>
 
     <p>
         <strong>Purpose:</strong>
-        To display, create, edit, delete, search, organize, and
-        manage calendar events within the App.
+        To display, create, edit, organize, search, and manage
+        calendar events and reminders within the App.
     </p>
 
     <p>
@@ -217,83 +216,110 @@
     <h3>1.2. Calendar Accounts</h3>
 
     <p>
-        Neu Calendar may display calendar accounts and calendars
+        Neu Calendar may access calendar accounts and calendars
         that are already configured on your Android device.
     </p>
 
     <p>
         <strong>Purpose:</strong>
-        To allow you to view and manage events associated with
-        calendars available through your device.
+        To display and manage calendars and events associated
+        with accounts available through the Android calendar system.
     </p>
 
     <p>
-        Neu Calendar does not collect or store your account
-        passwords or authentication credentials.
+        Neu Calendar does not independently collect or transmit
+        your calendar account credentials to One2 Labs.
     </p>
 
-    <p>
-        Calendar synchronization with an account is handled by
-        Android and the relevant calendar provider according to
-        that provider's settings and privacy policy.
-    </p>
-
-    <h3>1.3. Notifications and Reminders</h3>
+    <h3>1.3. Calendar Permissions</h3>
 
     <p>
-        Neu Calendar may schedule notifications for calendar events
-        and reminders.
-    </p>
-
-    <p>
-        <strong>Purpose:</strong>
-        To remind you about upcoming events and scheduled activities.
-    </p>
-
-    <p>
-        Reminder notifications are generated and scheduled on your
-        device. Neu Calendar does not transmit your event information
-        to One2 Labs servers for notification purposes.
-    </p>
-
-    <p>
-        <strong>Permission:</strong>
-        <code>POST_NOTIFICATIONS</code> may be required on supported
-        Android versions.
-    </p>
-
-    <h3>1.4. Clipboard Features</h3>
-
-    <p>
-        Neu Calendar may provide functionality that allows you to
-        copy event information, locations, notes, or other text
-        to your device's clipboard.
-    </p>
-
-    <p>
-        Information copied to the clipboard is handled by the Android
-        system clipboard and may be accessible to the operating system
-        or other applications according to your Android version and
-        device settings.
-    </p>
-
-    <p>
-        Neu Calendar does not control how other applications access
-        or process clipboard information.
-    </p>
-
-    <h3>1.5. Internet Access</h3>
-
-    <p>
-        Neu Calendar may require internet access for certain functionality,
-        including:
+        Depending on your Android version and the features you use,
+        Neu Calendar may request access to your device's calendar.
     </p>
 
     <ul>
         <li>
-            Synchronization performed by Android or your selected
-            calendar provider.
+            <strong>READ_CALENDAR</strong> – Used to display existing
+            calendar events and reminders.
         </li>
+        <li>
+            <strong>WRITE_CALENDAR</strong> – Used to create, edit,
+            or delete calendar events and reminders.
+        </li>
+    </ul>
+
+    <p>
+        These permissions are used only to provide calendar
+        management functionality.
+    </p>
+
+    <h3>1.4. Notifications and Reminders</h3>
+
+    <p>
+        Neu Calendar may generate notifications and reminders
+        for scheduled events.
+    </p>
+
+    <p>
+        Reminder notifications are generated locally on your device.
+        Your event schedules and reminder information are not
+        transmitted to One2 Labs servers for this purpose.
+    </p>
+
+    <p>
+        Depending on your Android version, the App may request
+        <code>POST_NOTIFICATIONS</code> permission to display
+        notifications.
+    </p>
+
+    <h3>1.5. Clipboard Features</h3>
+
+    <p>
+        Neu Calendar may allow you to copy event titles,
+        descriptions, locations, or other text to your device's
+        clipboard.
+    </p>
+
+    <p>
+        Information copied to the clipboard is handled by the
+        Android system clipboard and may be accessible to the
+        operating system or other applications according to your
+        Android version and device settings.
+    </p>
+
+    <p>
+        Neu Calendar does not control how other applications
+        access or process clipboard information.
+    </p>
+
+    <h3>1.6. Sharing Calendar Information</h3>
+
+    <p>
+        Neu Calendar may allow you to share event information
+        using Android's standard sharing functionality.
+    </p>
+
+    <p>
+        Sharing occurs only when you explicitly initiate the action.
+        The selected information may then be provided to the
+        application or service you choose.
+    </p>
+
+    <p>
+        Once information is shared with another application or
+        service, its handling is governed by that application's
+        or service's privacy practices.
+    </p>
+
+    <h3>1.7. Internet Access</h3>
+
+    <p>
+        Neu Calendar may require internet access for certain
+        functionality, including:
+    </p>
+
+    <ul>
         <li>
             Processing in-app purchases through Google Play Billing.
         </li>
@@ -308,9 +334,9 @@
     </ul>
 
     <p>
-        One2 Labs does not use the internet connection to upload
-        your private calendar events or personal calendar information
-        to its own servers.
+        One2 Labs does not use internet connectivity to upload
+        your private calendar events, reminders, schedules, or
+        other calendar content to its own servers.
     </p>
 
     <h2>2. Data Storage and Security</h2>
@@ -318,25 +344,24 @@
     <h3>Local Processing</h3>
 
     <p>
-        Personal information used by Neu Calendar, including calendar
-        events, reminders, schedules, and related information, is
-        primarily processed locally on your device to provide the
-        App's functionality.
+        Calendar events, reminders, schedules, and related
+        information are primarily processed locally on your
+        device to provide the App's functionality.
     </p>
 
-    <h3>No Cloud Storage by One2 Labs</h3>
+    <h3>No Cloud Storage of Calendar Data</h3>
 
     <p>
         One2 Labs does not operate servers that store your private
-        calendar events or personal calendar information.
+        calendar events, reminders, schedules, or calendar content.
     </p>
 
     <p>
-        If you use calendar synchronization provided by Android,
-        Google, or another calendar provider, your calendar data
-        may be synchronized according to that provider's settings
-        and privacy policy. Such synchronization is separate from
-        One2 Labs.
+        If your calendar is associated with an account or
+        synchronization service configured on your device,
+        that synchronization is provided by the applicable
+        Android or account provider and is outside the control
+        of One2 Labs.
     </p>
 
     <h3>Device Security</h3>
@@ -348,14 +373,14 @@
     </p>
 
     <p>
-        We recommend keeping your device and operating system updated
-        and using appropriate device security measures such as a
-        screen lock.
+        We recommend keeping your device and operating system
+        updated and using appropriate device security measures
+        such as a screen lock.
     </p>
 
     <p>
-        No method of electronic storage or processing can be guaranteed
-        to be completely secure.
+        No method of electronic storage or processing can be
+        guaranteed to be completely secure.
     </p>
 
     <h2>3. Third-Party Services</h2>
@@ -363,81 +388,102 @@
     <h3>Google Play Billing</h3>
 
     <p>
-        If the App offers paid features or in-app purchases,
-        Neu Calendar may use <strong>Google Play Billing</strong>
-        to process purchases.
+        Neu Calendar uses <strong>Google Play Billing</strong> to
+        process in-app purchases and paid features offered through
+        Google Play.
     </p>
 
     <p>
-        Payment transactions are handled by Google Play.
+        Payment transactions are processed by Google Play.
         One2 Labs does not receive or store your complete payment
         card, bank account, or other full payment credentials.
     </p>
 
     <p>
-        Google may process purchase-related information, such as
-        transaction information and purchase status, in accordance
-        with Google's applicable terms and privacy policies.
+        Google may process purchase-related information, including
+        transaction information, purchase status, and other
+        information necessary to complete and manage purchases,
+        in accordance with Google's applicable terms and privacy
+        policies.
+    </p>
+
+    <p>
+        Google Play Billing is used for purchase processing and
+        does not provide One2 Labs with access to your calendar
+        events, reminders, schedules, or other private calendar data.
     </p>
 
     <p>
         Neu Calendar currently does <strong>not</strong> use
-        advertising SDKs or third-party analytics services to
-        collect information about your calendar activity.
+        advertising SDKs, Firebase Analytics, or third-party
+        analytics services to collect information about your
+        calendar activity.
     </p>
 
     <h2>4. Data Sharing</h2>
 
     <p>
         One2 Labs does not sell, rent, or otherwise share your
-        calendar events, reminders, schedules, or other private
-        calendar information with third parties for advertising,
-        marketing, or profiling purposes.
+        calendar events, reminders, schedules, or calendar
+        information with third parties for advertising, marketing,
+        or profiling purposes.
     </p>
 
     <p>
-        If your device is configured to synchronize calendars with
-        Google or another calendar provider, that provider may
-        process your calendar information according to your settings
-        and its applicable privacy policy.
+        When you explicitly choose to share calendar information
+        using Android's sharing functionality, the selected
+        information may be provided to the application or service
+        you choose.
+    </p>
+
+    <p>
+        Calendar synchronization may also be performed by the
+        account or calendar provider configured on your device.
+        Such processing is governed by the respective provider's
+        privacy policies and terms.
     </p>
 
     <p>
         Information may also be processed by Android, Google Play,
         or other platform services when required for the operation
         of your device, the App, or services you choose to use.
-        Such processing is governed by the respective provider's
-        policies.
     </p>
 
     <h2>5. Data Retention and Deletion</h2>
 
     <p>
-        Neu Calendar does not maintain copies of your private calendar
-        events or personal calendar information on One2 Labs servers.
+        Neu Calendar does not maintain copies of your private
+        calendar events, reminders, or schedules on One2 Labs servers.
     </p>
 
     <p>
-        Because calendar information is managed through your device,
-        you can manage or delete events using Neu Calendar or other
-        calendar applications connected to your device.
+        Calendar events and reminders can be managed or deleted
+        through Neu Calendar, Android, or another application with
+        appropriate access to your calendar.
     </p>
 
     <p>
-        If a calendar is synchronized with an external account,
-        deleting an event may also affect the synchronized calendar
-        depending on the account and synchronization settings.
+        If your calendar is synchronized with an external account,
+        deletion and retention may also be governed by that
+        account or calendar provider.
     </p>
 
     <p>
-        Information stored by Android or other applications may not
-        be deleted when Neu Calendar is uninstalled.
+        Information stored by Android or other applications may
+        not be deleted when Neu Calendar is uninstalled.
     </p>
 
     <p>
-        If you contact One2 Labs by email, we may retain the information
-        you provide for as long as reasonably necessary to respond to
-        your request or comply with applicable legal obligations.
+        Purchase-related records may be retained by Google Play
+        according to Google's applicable policies and legal
+        requirements.
+    </p>
+
+    <p>
+        If you contact One2 Labs by email, we may retain the
+        information you provide for as long as reasonably necessary
+        to respond to your request or comply with applicable legal
+        obligations.
     </p>
 
     <h2>6. Children's Privacy</h2>
