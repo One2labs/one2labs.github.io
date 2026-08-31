@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for Neu Phone – Smart Dialer by One2 Labs">
+
+    <meta name="description"
+          content="Privacy Policy for Neu Phone – Smart Dialer by One2 Labs">
+
     <title>Privacy Policy - Neu Phone</title>
 
     <style>
@@ -12,14 +15,24 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                         Roboto, Helvetica, Arial, sans-serif;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
             line-height: 1.7;
             color: #222;
-            background: #f7f7f7;
+            background: #f6f7f9;
         }
 
         .container {
@@ -27,21 +40,32 @@
             margin: 40px auto;
             padding: 40px;
             background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            border-radius: 14px;
+            box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
         }
 
         h1 {
-            margin-top: 0;
-            margin-bottom: 8px;
+            margin: 0 0 8px;
             font-size: 32px;
+            line-height: 1.3;
+            color: #111;
         }
 
         h2 {
-            margin-top: 36px;
+            margin-top: 38px;
+            margin-bottom: 14px;
             padding-bottom: 8px;
-            border-bottom: 1px solid #eee;
-            font-size: 22px;
+            border-bottom: 1px solid #e9e9e9;
+            font-size: 23px;
+            line-height: 1.4;
+            color: #111;
+        }
+
+        h3 {
+            margin-top: 28px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #222;
         }
 
         p {
@@ -49,7 +73,8 @@
         }
 
         ul {
-            padding-left: 25px;
+            padding-left: 24px;
+            margin: 12px 0 18px;
         }
 
         li {
@@ -57,15 +82,36 @@
         }
 
         .updated {
+            margin-bottom: 30px;
             color: #666;
             font-size: 14px;
-            margin-bottom: 30px;
+        }
+
+        .developer {
+            margin-bottom: 4px;
         }
 
         .contact {
+            margin-top: 20px;
             padding: 20px;
-            background: #f5f5f5;
-            border-radius: 8px;
+            background: #f5f6f8;
+            border-radius: 10px;
+        }
+
+        .principle {
+            margin: 24px 0;
+            padding: 18px 20px;
+            border-left: 4px solid #555;
+            background: #f7f7f7;
+            border-radius: 6px;
+        }
+
+        code {
+            padding: 2px 5px;
+            border-radius: 4px;
+            background: #f1f1f1;
+            font-family: monospace;
+            font-size: 0.92em;
         }
 
         a {
@@ -78,9 +124,9 @@
         }
 
         footer {
-            margin-top: 40px;
+            margin-top: 45px;
             padding-top: 20px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid #e9e9e9;
             color: #777;
             font-size: 14px;
             text-align: center;
@@ -89,7 +135,7 @@
         @media (max-width: 600px) {
             .container {
                 margin: 0;
-                padding: 24px 20px;
+                padding: 25px 20px;
                 border-radius: 0;
             }
 
@@ -98,7 +144,11 @@
             }
 
             h2 {
-                font-size: 20px;
+                font-size: 21px;
+            }
+
+            h3 {
+                font-size: 17px;
             }
         }
     </style>
@@ -108,130 +158,128 @@
 
 <main class="container">
 
-    <h1>Privacy Policy</h1>
+    <h1>Privacy Policy (Neu Phone)</h1>
 
     <div class="updated">
-        Last updated: August 31, 2026
+        <div class="developer">
+            <strong>Last updated:</strong> March 12, 2026
+        </div>
+
+        <div class="developer">
+            <strong>Developer:</strong> One2 Labs
+        </div>
+
+        <div>
+            <strong>Contact:</strong>
+            <a href="mailto:one2.labs@gmail.com">
+                one2.labs@gmail.com
+            </a>
+        </div>
     </div>
 
+    <h2>General</h2>
+
     <p>
-        One2 Labs ("us", "we", or "our") operates the
-        <strong>Neu Phone – Smart Dialer</strong> mobile application
-        (the "Service").
+        Neu Phone ("the App") is developed by One2 Labs.
     </p>
 
     <p>
-        This Privacy Policy explains how we handle information when
-        you use Neu Phone and describes our commitment to protecting
-        your privacy.
+        This Privacy Policy ("Policy") describes how information
+        accessed or processed by Neu Phone is handled.
     </p>
 
-    <h2>Information Collection and Use</h2>
+    <div class="principle">
+        <strong>Core Privacy Principle:</strong>
+        Your call history, contacts, phone numbers, and dialer-related
+        data are processed on your device. One2 Labs does not transmit
+        your private call data, contact information, or call history
+        to its own servers.
+    </div>
+
+    <h2>1. Information We Access and How We Use It</h2>
+
+    <h3>1.1. Device Phone Number – Local Display</h3>
 
     <p>
-        Neu Phone is designed with privacy in mind. The application
-        primarily processes information locally on your device to
-        provide its core phone and contact management features.
-    </p>
-
-    <p>Neu Phone may access information such as:</p>
-
-    <ul>
-        <li>Contacts stored on your device</li>
-        <li>Phone numbers</li>
-        <li>Call history and recent calls</li>
-        <li>Favorite contacts</li>
-        <li>Blocked numbers</li>
-        <li>Information required to place and manage phone calls</li>
-    </ul>
-
-    <p>
-        This information is used only to provide the functionality
-        of the application, such as displaying and searching contacts,
-        managing recent calls, making calls, managing favorites,
-        and blocking unwanted calls.
+        <strong>Data Accessed:</strong>
+        Your mobile phone number(s) associated with your device's
+        SIM card(s), where available and permitted by Android.
     </p>
 
     <p>
-        Neu Phone does not sell, rent, or share your personal
-        information with third parties.
+        <strong>Purpose:</strong>
+        To display SIM information inside the App and allow convenient
+        SIM selection for phone calls.
     </p>
 
     <p>
-        Your contacts and call history are intended to remain on
-        your device and are not uploaded to One2 Labs servers for
-        advertising, profiling, or analytics purposes.
+        <strong>Processing:</strong>
+        This information is processed locally on your device.
+        One2 Labs does not upload your phone number to its servers.
     </p>
 
     <p>
-        Neu Phone's core calling and contact-management functionality
-        operates primarily on your device.
+        <strong>Permission:</strong>
+        <code>READ_PHONE_STATE</code> may be required for certain
+        multi-SIM functionality.
     </p>
 
-    <h2>Permissions</h2>
+    <h3>1.2. Call Logs and Dialer Functionality</h3>
 
     <p>
-        Neu Phone may request Android permissions that are necessary
-        to provide its functionality.
-    </p>
-
-    <p>Depending on the features you use, these permissions may include:</p>
-
-    <ul>
-        <li>
-            <strong>Contacts:</strong>
-            To display, search, and manage contacts.
-        </li>
-
-        <li>
-            <strong>Call logs:</strong>
-            To display recent, missed, and other call history.
-        </li>
-
-        <li>
-            <strong>Phone/Call permissions:</strong>
-            To place and manage phone calls.
-        </li>
-
-        <li>
-            <strong>Default Phone/Dialer role:</strong>
-            To provide the full functionality of a phone dialer when
-            you choose to set Neu Phone as your default phone application.
-        </li>
-
-        <li>
-            <strong>Notifications:</strong>
-            Where required to provide relevant calling or
-            post-call functionality.
-        </li>
-    </ul>
-
-    <p>
-        These permissions are used only for the features they enable.
-        You can manage permissions through your Android device settings.
-    </p>
-
-    <h2>Data Stored on Your Device</h2>
-
-    <p>
-        Information used by Neu Phone, including contacts and call
-        history, is generally stored and processed locally on your
-        Android device.
+        <strong>Data Accessed:</strong>
+        Call history, incoming and outgoing phone numbers,
+        call types, and call timestamps.
     </p>
 
     <p>
-        One2 Labs does not intentionally upload your contacts,
-        call history, or call-related content to its own servers.
+        <strong>Purpose:</strong>
+        To provide core dialer functionality, including displaying
+        recent calls, identifying callers, and managing call history.
     </p>
 
     <p>
-        If you uninstall Neu Phone or clear its application data,
-        information stored by the application may be removed according
-        to Android's system behavior. Information that belongs to other
-        applications or the Android operating system may remain unaffected.
+        <strong>Processing:</strong>
+        Call log information is processed locally on your device.
+        One2 Labs does not transmit your call history or phone
+        numbers to its servers.
     </p>
 
-    <h2>Clipboard</h2>
+    <p>
+        <strong>Permissions:</strong>
+        <code>READ_CALL_LOG</code> and, where applicable,
+        <code>WRITE_CALL_LOG</code> may be required for supported
+        call-management features.
+    </p>
+
+    <h3>1.3. Contacts (Optional Functionality)</h3>
+
+    <p>
+        <strong>Data Accessed:</strong>
+        Contact names, phone numbers, and other contact information
+        stored in your address book.
+    </p>
+
+    <p>
+        <strong>Purpose:</strong>
+        To display contacts, caller names, contact information,
+        and contact suggestions within the dialer.
+    </p>
+
+    <p>
+        <strong>Processing:</strong>
+        Contact information is accessed and processed locally
+        on your device. One2 Labs does not upload your contacts
+        to its servers.
+    </p>
+
+    <p>
+        <strong>Permissions:</strong>
+        <code>READ_CONTACTS</code> and, where applicable,
+        <code>WRITE_CONTACTS</code>.
+    </p>
+
+    <h3>1.4. Clipboard Features</h3>
 
     <p>
         Neu Phone may provide functionality that allows you to copy
@@ -239,122 +287,171 @@
     </p>
 
     <p>
-        Information copied to the clipboard may be accessible to the
-        Android operating system and to other applications that have
-        permission to access clipboard data.
+        Information copied to the clipboard is handled by the Android
+        system clipboard and may be accessible to the operating system
+        or other applications according to your Android version and
+        device settings.
     </p>
 
     <p>
-        Neu Phone does not control how other applications or the
-        operating system process information stored in the clipboard.
+        Neu Phone does not control how other applications access or
+        process clipboard information.
     </p>
 
-    <h2>Log Data</h2>
+    <h3>1.5. Internet Access</h3>
 
     <p>
-        Neu Phone does not intentionally collect personal or technical
-        log data for tracking, advertising, or profiling purposes.
+        Neu Phone may require internet access for certain functionality,
+        including:
     </p>
 
+    <ul>
+        <li>
+            Processing in-app purchases through Google Play Billing.
+        </li>
+        <li>
+            Accessing optional online resources or support-related
+            functionality, where applicable.
+        </li>
+        <li>
+            Other functionality that may be introduced in future
+            versions of the App.
+        </li>
+    </ul>
+
     <p>
-        Certain technical information may nevertheless be processed
-        automatically by Android, Google Play, or other system services
-        operating on your device. Such processing is controlled by those
-        services and their respective privacy policies.
+        One2 Labs does not use the internet connection to upload
+        your private contacts, call history, or call-related data
+        to its own servers.
     </p>
 
-    <h2>Cookies</h2>
+    <h2>2. Data Storage and Security</h2>
+
+    <h3>Local Processing</h3>
 
     <p>
-        The Neu Phone mobile application does not use cookies.
+        Personal information used by Neu Phone, including contacts,
+        call logs, and phone numbers, is primarily processed locally
+        on your device to provide the App's functionality.
     </p>
 
+    <h3>No Cloud Storage of Dialer Data</h3>
+
     <p>
-        Cookies are generally associated with websites and web-based
-        services rather than the core functionality of this Android
-        application.
+        One2 Labs does not operate servers that store your private
+        contacts, call history, or call-related information.
     </p>
 
-    <h2>Third-Party Services</h2>
+    <h3>Device Security</h3>
 
     <p>
-        Neu Phone does not intentionally transmit your contacts,
-        call history, or call-related content to third-party services.
-    </p>
-
-    <p>
-        The application is distributed through Google Play and operates
-        on the Android platform. Google Play, Android, and other system
-        services may independently process certain information in
-        accordance with their respective terms and privacy policies.
-    </p>
-
-    <h2>Data Security</h2>
-
-    <p>
-        Your trust is important to us. Neu Phone is designed to
-        minimize unnecessary collection and transmission of
-        personal information.
-    </p>
-
-    <p>
-        Because most personal information used by the application is
-        processed locally on your device, you retain control over that
-        information through your Android device and its security settings.
-    </p>
-
-    <p>
-        However, no method of electronic storage or transmission is
-        completely secure. We cannot guarantee absolute security of
-        information processed by your device, the Android operating
-        system, Google Play, or other third-party services.
-    </p>
-
-    <h2>Children's Privacy</h2>
-
-    <p>
-        Neu Phone is not specifically directed toward children under
-        the age of 13.
+        The security of information stored on your device depends
+        in part on the security protections provided by your Android
+        device and operating system.
     </p>
 
     <p>
-        We do not knowingly collect personal information from children
-        through Neu Phone. If you believe that a child has provided
-        personal information to us, please contact us so that we can
-        review the matter.
-    </p>
-
-    <h2>Data Retention and Deletion</h2>
-
-    <p>
-        Because Neu Phone is designed to process contacts and call
-        history locally, One2 Labs generally does not maintain copies
-        of this information on its own servers.
+        We recommend keeping your device and operating system updated
+        and using appropriate device security measures such as a
+        screen lock.
     </p>
 
     <p>
-        You can remove application data through your Android device
-        settings or uninstall the application.
+        No method of electronic storage or processing can be guaranteed
+        to be completely secure.
+    </p>
+
+    <h2>3. Third-Party Services</h2>
+
+    <h3>Google Play Billing</h3>
+
+    <p>
+        If the App offers paid features or in-app purchases,
+        Neu Phone may use <strong>Google Play Billing</strong>
+        to process purchases.
     </p>
 
     <p>
-        If you have contacted One2 Labs directly by email or otherwise
-        provided information to us outside the application, we may
-        retain that information only for as long as reasonably necessary
+        Payment transactions are handled by Google Play.
+        One2 Labs does not receive or store your complete payment
+        card, bank account, or other full payment credentials.
+    </p>
+
+    <p>
+        Google may process purchase-related information, such as
+        transaction information and purchase status, in accordance
+        with Google's applicable terms and privacy policies.
+    </p>
+
+    <p>
+        Neu Phone currently does <strong>not</strong> use advertising
+        SDKs or third-party analytics services to collect information
+        about your dialer activity.
+    </p>
+
+    <h2>4. Data Sharing</h2>
+
+    <p>
+        One2 Labs does not sell, rent, or otherwise share your
+        contacts, call history, phone numbers, or dialer-related
+        personal information with third parties for advertising,
+        marketing, or profiling purposes.
+    </p>
+
+    <p>
+        Information may be processed by Android, Google Play, or
+        other platform services when required for the operation of
+        your device, the App, or services you choose to use.
+        Such processing is governed by the respective provider's
+        policies.
+    </p>
+
+    <h2>5. Data Retention and Deletion</h2>
+
+    <p>
+        Neu Phone does not maintain copies of your contacts or
+        call history on One2 Labs servers.
+    </p>
+
+    <p>
+        Because this information is processed locally, you can
+        manage or delete it using the App, your Android device
+        settings, or by uninstalling the App, depending on the
+        type of information.
+    </p>
+
+    <p>
+        Information stored by Android or other applications may
+        not be deleted when Neu Phone is uninstalled.
+    </p>
+
+    <p>
+        If you contact One2 Labs by email, we may retain the
+        information you provide for as long as reasonably necessary
         to respond to your request or comply with applicable legal
         obligations.
     </p>
 
+    <h2>6. Children's Privacy</h2>
+
     <p>
-        You may contact us at
-        <a href="mailto:one2.labs@gmail.com">
-            one2.labs@gmail.com
-        </a>
-        regarding questions about personal information you have
-        provided directly to us.
+        Neu Phone is not specifically directed toward children.
     </p>
 
-    <h2>Open Source Components</h2>
+    <p>
+        One2 Labs does not knowingly collect personal information
+        from children through the App.
+    </p>
+
+    <p>
+        If you believe that a child has provided personal information
+        directly to One2 Labs, please contact us at
+        <a href="mailto:one2.labs@gmail.com">
+            one2.labs@gmail.com
+        </a>.
+    </p>
+
+    <h2>7. Open Source Components</h2>
 
     <p>
         Neu Phone includes open-source code from the
@@ -377,35 +474,36 @@
     </p>
 
     <p>
-        The applicable open-source licenses and notices govern the use
-        and distribution of the corresponding open-source components
-        included in Neu Phone.
+        The applicable open-source licenses and notices govern the
+        use and distribution of the corresponding open-source
+        components included in Neu Phone.
     </p>
 
-    <h2>Changes to This Privacy Policy</h2>
+    <h2>8. Changes to This Privacy Policy</h2>
 
     <p>
-        We may periodically update this Privacy Policy to reflect
+        We may update this Privacy Policy periodically to reflect
         changes to Neu Phone, applicable laws, or our privacy practices.
     </p>
 
     <p>
-        We encourage users to review this Privacy Policy periodically
-        for any changes.
+        Any changes will be reflected by updating the
+        <strong>"Last updated"</strong> date at the beginning
+        of this Policy.
     </p>
 
     <p>
-        Any modifications will be posted on this page, and the
-        <strong>"Last updated"</strong> date at the beginning of this
-        Privacy Policy will be updated accordingly.
+        We encourage you to review this Policy periodically.
     </p>
 
-    <h2>Contact Us</h2>
+    <h2>9. Contact Us</h2>
 
     <div class="contact">
+
         <p>
-            If you have any questions, suggestions, concerns, or requests
-            regarding this Privacy Policy or Neu Phone, please contact us at:
+            If you have questions, concerns, or suggestions regarding
+            this Privacy Policy or the privacy practices of Neu Phone,
+            please contact:
         </p>
 
         <p>
@@ -416,9 +514,6 @@
             </a>
         </p>
 
-        <p>
-            We value your privacy and appreciate your support of Neu Phone.
-        </p>
     </div>
 
     <footer>
