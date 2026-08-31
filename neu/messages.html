@@ -183,16 +183,17 @@
 
     <div class="principle">
         <strong>Core Privacy Principle:</strong>
-        Your private message content (SMS/MMS), contacts, phone
-        numbers, and message-related data are processed on your
-        device. One2 Labs does not transmit your private message
-        content, contact information, or extracted phone numbers
-        to its own servers.
+        Your private message content, SMS/MMS data, contacts, and
+        phone numbers are processed on your device. One2 Labs does
+        not transmit your private message content, contact
+        information, or phone numbers to its own servers.
+        Internet access may be used for carrier-based messaging
+        functionality such as MMS and for Google Play Billing.
     </div>
 
     <h2>1. Information We Access and How We Use It</h2>
 
-    <h3>1.1. Device Phone Number – Local Display</h3>
+    <h3>1.1. Device Phone Number and SIM Information</h3>
 
     <p>
         <strong>Data Accessed:</strong>
@@ -202,8 +203,8 @@
 
     <p>
         <strong>Purpose:</strong>
-        To display SIM information inside the App and allow convenient
-        SIM selection when sending messages.
+        To display SIM information and provide convenient SIM
+        selection when sending messages.
     </p>
 
     <p>
@@ -222,102 +223,126 @@
 
     <p>
         <strong>Data Accessed:</strong>
-        SMS and MMS messages stored on your device, including
-        message text, sender and recipient phone numbers,
-        timestamps, and other message-related information.
+        SMS and MMS message content, including message text,
+        multimedia content, phone numbers of senders and recipients,
+        message dates, and related messaging information.
     </p>
 
     <p>
         <strong>Purpose:</strong>
-        To provide core messaging functionality, including
-        displaying, reading, organizing, searching, sending,
-        and managing messages.
+        To provide core messaging functionality, including reading,
+        displaying, organizing, sending, and managing messages.
     </p>
 
     <p>
         <strong>Processing:</strong>
         Message information is processed locally on your device.
-        One2 Labs does not upload your private SMS or MMS content
-        to its servers.
-    </p>
-
-    <h3>1.3. Automatic OTP Code Detection</h3>
-
-    <p>
-        Neu Messages may analyze incoming SMS messages locally
-        to identify One-Time Password (OTP) or verification codes.
+        One2 Labs does not upload or transmit your private SMS or
+        MMS content to its servers.
     </p>
 
     <p>
-        <strong>Purpose:</strong>
-        To make it easier for you to identify and copy verification
-        codes when using supported messaging features.
+        <strong>Permission:</strong>
+        <code>READ_SMS</code> may be required for core messaging
+        functionality. Other SMS-related permissions may be required
+        depending on the features supported by the App and Android.
+    </p>
+
+    <h3>1.3. Automatic OTP Code Extraction</h3>
+
+    <p>
+        Neu Messages may analyze incoming SMS messages locally to
+        identify One-Time Passwords (OTPs) and make them easier
+        to copy or use.
     </p>
 
     <p>
-        OTP detection is performed locally on your device.
-        Message content and detected OTP codes are not transmitted
-        to One2 Labs servers.
+        OTP detection and extraction are performed locally on
+        your device.
+    </p>
+
+    <p>
+        OTP information is not transmitted to One2 Labs servers.
     </p>
 
     <h3>1.4. Phone Number Extraction</h3>
 
     <p>
         Neu Messages may identify phone numbers contained within
-        SMS messages.
+        SMS messages to allow you to conveniently copy or use
+        those numbers.
     </p>
 
     <p>
-        <strong>Purpose:</strong>
-        To allow you to conveniently copy or interact with phone
-        numbers found in messages.
+        This processing is performed locally on your device.
+        Extracted phone numbers are not uploaded to One2 Labs
+        servers.
     </p>
 
-    <p>
-        This processing occurs locally on your device and extracted
-        phone numbers are not transmitted to One2 Labs servers.
-    </p>
-
-    <h3>1.5. Contacts</h3>
+    <h3>1.5. Contacts (Optional Functionality)</h3>
 
     <p>
         <strong>Data Accessed:</strong>
-        Contact names, phone numbers, and other contact information
-        stored in your device's address book.
+        Contact names and phone numbers stored in your device's
+        address book.
     </p>
 
     <p>
         <strong>Purpose:</strong>
-        To display contact names, identify message senders,
-        and provide contact suggestions within the messaging interface.
+        To display contact names, identify message participants,
+        and provide contact suggestions within the messaging
+        interface.
     </p>
 
     <p>
         <strong>Processing:</strong>
-        Contact information is accessed and processed locally
-        on your device. One2 Labs does not upload your contacts
-        to its servers.
+        Contact information is accessed and processed locally.
+        One2 Labs does not upload your contacts to its servers.
     </p>
 
     <p>
         <strong>Permission:</strong>
-        <code>READ_CONTACTS</code> may be required for contact-related
-        functionality.
+        <code>READ_CONTACTS</code> may be required for contact
+        identification and suggestions.
     </p>
 
-    <h3>1.6. Clipboard Features</h3>
+    <h3>1.6. Sending SMS and MMS</h3>
 
     <p>
-        Neu Messages may provide functionality that allows you to
-        copy OTP codes, phone numbers, message text, or other
-        information to your device's clipboard.
+        Neu Messages may use your mobile network and carrier
+        services to send SMS and MMS messages.
     </p>
 
     <p>
-        Information copied to the clipboard is handled by the
-        Android system clipboard and may be accessible to the
-        operating system or other applications according to your
-        Android version and device settings.
+        When you send a message, the selected message content and
+        recipient information are transmitted through your mobile
+        carrier or network provider as necessary to deliver the
+        message.
+    </p>
+
+    <p>
+        One2 Labs does not operate the carrier network and does not
+        receive copies of messages solely because they are sent
+        through the App.
+    </p>
+
+    <p>
+        MMS may require mobile data or another carrier-provided
+        network connection.
+    </p>
+
+    <h3>1.7. Clipboard Features</h3>
+
+    <p>
+        Neu Messages may allow you to copy OTP codes, phone numbers,
+        message text, or other information to your device's clipboard.
+    </p>
+
+    <p>
+        Information copied to the clipboard is handled by the Android
+        system clipboard and may be accessible to the operating system
+        or other applications according to your Android version and
+        device settings.
     </p>
 
     <p>
@@ -325,32 +350,29 @@
         or process clipboard information.
     </p>
 
-    <h3>1.7. Internet and Mobile Network Access</h3>
+    <h3>1.8. Internet Access</h3>
 
     <p>
-        Neu Messages may use your mobile network or internet
-        connection for messaging functionality, including:
+        Neu Messages may use network connectivity for:
     </p>
 
     <ul>
         <li>
-            Sending and receiving MMS messages through your mobile
-            carrier or network.
+            Sending or receiving MMS through your mobile carrier,
+            where required.
         </li>
         <li>
-            Other carrier-supported messaging operations.
+            Processing in-app purchases through Google Play Billing.
         </li>
         <li>
-            Processing in-app purchases through Google Play Billing,
-            where applicable.
+            Other optional network functionality, where applicable.
         </li>
     </ul>
 
     <p>
-        The transmission of messages through your mobile carrier
-        or network is necessary to deliver messages to their
-        intended recipients. One2 Labs does not intercept or
-        store your message content on its own servers.
+        One2 Labs does not use internet connectivity to upload your
+        private SMS/MMS content, contacts, or phone numbers to its
+        own servers.
     </p>
 
     <h2>2. Data Storage and Security</h2>
@@ -358,13 +380,12 @@
     <h3>Local Processing</h3>
 
     <p>
-        Personal information used by Neu Messages, including SMS/MMS
-        content, contacts, phone numbers, and message-related data,
-        is primarily processed locally on your device to provide
-        the App's functionality.
+        Message content, contacts, phone numbers, and related
+        messaging information are primarily processed locally
+        on your device.
     </p>
 
-    <h3>No Cloud Storage of Message Data</h3>
+    <h3>No Cloud Storage of Private Messages</h3>
 
     <p>
         One2 Labs does not operate servers that store your private
@@ -380,14 +401,14 @@
     </p>
 
     <p>
-        We recommend keeping your device and operating system updated
-        and using appropriate device security measures such as a
-        screen lock.
+        We recommend keeping your device and operating system
+        updated and using appropriate device security measures
+        such as a screen lock.
     </p>
 
     <p>
-        No method of electronic storage or processing can be guaranteed
-        to be completely secure.
+        No method of electronic storage or transmission can be
+        guaranteed to be completely secure.
     </p>
 
     <h2>3. Third-Party Services</h2>
@@ -395,76 +416,99 @@
     <h3>Google Play Billing</h3>
 
     <p>
-        If the App offers paid features or in-app purchases,
-        Neu Messages may use <strong>Google Play Billing</strong>
-        to process purchases.
+        Neu Messages uses <strong>Google Play Billing</strong> to
+        process in-app purchases and paid features offered through
+        Google Play.
     </p>
 
     <p>
-        Payment transactions are handled by Google Play.
+        Payment transactions are processed by Google Play.
         One2 Labs does not receive or store your complete payment
         card, bank account, or other full payment credentials.
     </p>
 
     <p>
-        Google may process purchase-related information, such as
-        transaction information and purchase status, in accordance
-        with Google's applicable terms and privacy policies.
+        Google may process purchase-related information, including
+        transaction information, purchase status, and other
+        information necessary to complete and manage purchases,
+        in accordance with Google's applicable terms and privacy
+        policies.
+    </p>
+
+    <p>
+        Google Play Billing is used for purchase processing and does
+        not provide One2 Labs with access to your SMS, MMS, contacts,
+        phone numbers, or private message content.
     </p>
 
     <p>
         Neu Messages currently does <strong>not</strong> use
-        advertising SDKs or third-party analytics services to
-        collect information about your messaging activity.
+        advertising SDKs, Firebase Analytics, or third-party
+        analytics services to collect information about your
+        messaging activity.
     </p>
 
     <h2>4. Data Sharing</h2>
 
     <p>
         One2 Labs does not sell, rent, or otherwise share your
-        messages, contacts, phone numbers, or other private
-        messaging information with third parties for advertising,
-        marketing, or profiling purposes.
+        SMS/MMS content, contacts, phone numbers, or messaging
+        information with third parties for advertising, marketing,
+        or profiling purposes.
     </p>
 
     <p>
-        Messages sent through your mobile carrier or network may
-        necessarily be processed by the carrier and relevant
-        telecommunications infrastructure to deliver those messages.
-        This processing is outside the control of One2 Labs.
+        When you send SMS or MMS messages, the selected message
+        information is transmitted through your mobile carrier or
+        network provider as necessary to deliver the message.
+    </p>
+
+    <p>
+        When you explicitly choose to share message content or other
+        information using Android's sharing or clipboard functionality,
+        the selected information may be provided to the application
+        or service you choose.
     </p>
 
     <p>
         Information may also be processed by Android, Google Play,
-        or other platform services when required for the operation
-        of your device, the App, or services you choose to use.
-        Such processing is governed by the respective provider's
-        policies.
+        your mobile carrier, or other platform services when required
+        for the operation of your device, the App, or services you
+        choose to use. Such processing is governed by the respective
+        provider's policies.
     </p>
 
     <h2>5. Data Retention and Deletion</h2>
 
     <p>
         Neu Messages does not maintain copies of your private
-        messages or contacts on One2 Labs servers.
+        SMS/MMS content, contacts, or message history on
+        One2 Labs servers.
     </p>
 
     <p>
-        Because message and contact information is processed locally,
-        you can manage or delete it using Neu Messages, your Android
-        device settings, or other applications that manage your
-        device's messages and contacts.
+        Messages and related information stored on your device can
+        be managed or deleted using Neu Messages, Android, or other
+        applications with appropriate access.
     </p>
 
     <p>
-        Information stored by Android or other applications may not
-        be deleted when Neu Messages is uninstalled.
+        Information stored by Android, your mobile carrier, or other
+        applications may not be deleted when Neu Messages is
+        uninstalled.
     </p>
 
     <p>
-        If you contact One2 Labs by email, we may retain the information
-        you provide for as long as reasonably necessary to respond to
-        your request or comply with applicable legal obligations.
+        Purchase-related records may be retained by Google Play
+        according to Google's applicable policies and legal
+        requirements.
+    </p>
+
+    <p>
+        If you contact One2 Labs by email, we may retain the
+        information you provide for as long as reasonably necessary
+        to respond to your request or comply with applicable legal
+        obligations.
     </p>
 
     <h2>6. Children's Privacy</h2>
