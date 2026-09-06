@@ -50,6 +50,266 @@
       "packageName": "com.andmobi.phone",
       "icon": "https://play-lh.googleusercontent.com/U6qiRuW-1GhhUHR5oVRHQuwcHCPxDKpTuqNauAJfrFAOIsy9YwCTXKoIOLBOaG6SXyRJiYCo2peUpkHiji_xYA=w480-h960-rw",
       "buttonText": "Install"
+    },
+    {
+      "id": "bt",
+      "enabled": true,
+      "priority": 1,
+      "title": "BVC",
+      "subtitle": "Bluetooth Volume Control",
+      "packageName": "com.andmobi.volume",
+      "icon": "https://play-lh.googleusercontent.com/gXirkJ8LElzf91GrsBVJIs6lVJzxEsF_DgCEKQtApgkEaCA3XPtm0bGMmzSvwsNdx5msHWiNe5HQmDSlSIT4YGk=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "gallery",
+      "enabled": true,
+      "priority": 1,
+      "title": "AI Gallery",
+      "subtitle": "AI Gallery & Photo Vault",
+      "packageName": "com.vistia.gallery",
+      "icon": "https://play-lh.googleusercontent.com/e7a2RuIkwO9JQG9isThuDKQ3kfg3ZDWkdWOrsfgq3iRNVBtLC8V2F4DRYPywglkeBQpo05aIKMiHHJfUrI_mng=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "gallery",
+      "enabled": true,
+      "priority": 1,
+      "title": "AI Gallery",
+      "subtitle": "AI Gallery & Photo Vault",
+      "packageName": "com.vistia.gallery",
+      "icon": "https://play-lh.googleusercontent.com/e7a2RuIkwO9JQG9isThuDKQ3kfg3ZDWkdWOrsfgq3iRNVBtLC8V2F4DRYPywglkeBQpo05aIKMiHHJfUrI_mng=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "vidx",
+      "enabled": true,
+      "priority": 1,
+      "title": "VidX Player",
+      "subtitle": "VidX – 4K Video Player",
+      "packageName": "com.andmobi.onlyplay",
+      "icon": "https://play-lh.googleusercontent.com/YUuBX74OoqCB1CTrq37o_nsgIWeyTOZVrPhzVl-pJNKKaxkbKax6sfL0rGywCw_mVR276dzkDxsz-rfSPlDGnIQ=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "launcher",
+      "enabled": true,
+      "priority": 1,
+      "title": "Neu Launcher",
+      "subtitle": "Neu Launcher – Home Screen",
+      "packageName": "com.andmobi.home",
+      "icon": "https://play-lh.googleusercontent.com/glj7dbrrn_F9Zl2ByiqXbwZ8VceVxDYcDzkTskio8XTHEN6vvSZb56bWZ_fYEhZLzmngy4aZo9_jVF30y4r9PA=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "clock",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Clock",
+      "subtitle": "Neu Clock – Alarm & Timer",
+      "packageName": "com.andmobi.clock",
+      "icon": "https://play-lh.googleusercontent.com/SVER4dg0Q0CMl73wy8SsJwdQ86-FTAJWYVDPAdKvoi0sYubM1xli9vof1TDXSu1ApwKNQmQm8n6KmsUettFRQ4U=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "keyboard",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Keyboard",
+      "subtitle": "Neu Keyboard – Safe Typing",
+      "packageName": "com.andmobi.keyboard",
+      "icon": "https://play-lh.googleusercontent.com/wSe5HepHVQ7gpczo87Jtg78TbSiMMlGHKv3XBTFDnCfVgEE46Uu3d-xZIcJUusupsMQFXhLaoY9sa34luOIg0Q=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "filemanager",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Files",
+      "subtitle": "Neu Files – File Manager",
+      "packageName": "com.andmobi.filemanager",
+      "icon": "https://play-lh.googleusercontent.com/918hyzb2wpP00pJFj4M7Hti0ws5Z6lY-5MeybFOz4Ug4gAkmvIsSEDepJKXPWqUREjZdQTiEnECsqsnd1J6YLA=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "gallery",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Gallery",
+      "subtitle": "Neu Gallery - Photo Gallery",
+      "packageName": "com.andmobi.gallery",
+      "icon": "https://play-lh.googleusercontent.com/F9AX0rr_2DeMQ5YAvnGuC2fZuQGmwwk95AtOfIw7ahZImsdu7rDWS3pP1yhrW8j0MbLgMF-k6BkcOWs06Jm6GQ=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "recorder",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Recorder",
+      "subtitle": "Neu Recorder – Voice & Audio",
+      "packageName": "com.andmobi.voicerecorder",
+      "icon": "https://play-lh.googleusercontent.com/c7uqDq3CiQS7HYkkbQxkDyBVtJkg-vZUeRO6YBPIBrWTY451HwqT6iE-UZIruJbNuSDkiXR4kKMiePiyYcNZVQ0=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "contacts",
+      "enabled": true,
+      "priority": 1,
+      "title": "Neu Contacts",
+      "subtitle": "Neu Contacts – Contacts+",
+      "packageName": "com.andmobi.contacts",
+      "icon": "https://play-lh.googleusercontent.com/zTWT2RXy2bLnr2nY_sS8aJfH3lN2J52avRk-P74ckIGPMTefgMb92wr0CGLqSJHzp0wwK2Bs6YrJrtq2Pqke2k4=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "messages",
+      "enabled": true,
+      "priority": 1,
+      "title": "Neu Messages",
+      "subtitle": "Neu Messages – SMS Organizer",
+      "packageName": "com.andmobi.messages",
+      "icon": "https://play-lh.googleusercontent.com/YgKsnwSzFEjVlIkutziDo13mGfANHQ6qN4PUtsrhrwKBLi_kFFKbprTsDa2oBIvn-3jE3gHrKMBiny8UPN0Pj6g=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "math",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Calculator",
+      "subtitle": "Neu Calculator – Math",
+      "packageName": "com.andmobi.math",
+      "icon": "https://play-lh.googleusercontent.com/F-YboZlRVqxcMv9oeEP3aE9ROtZXXqJL1-N24keSRdHk0w0bl0_pmvyzcpPN6MxCl68xtWwU3tUjHlgL3fKn-w=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "paint",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Paint",
+      "subtitle": "Neu Paint – Sketch & Draw",
+      "packageName": "com.andmobi.paint",
+      "icon": "https://play-lh.googleusercontent.com/pNJxx62cujqUjzLYJVcLxnvw8E-ExGD7AJIqpKeUrPXd1TublpdW4i6HnWIWOKBC9UO-ZV5pUAAvpbGVvShchf0=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "notes",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Notes",
+      "subtitle": "Neu Notes – Secure Notepad",
+      "packageName": "com.andmobi.notes",
+      "icon": "https://play-lh.googleusercontent.com/12IIiYS7ErnK7uieewcQ1VglKCk-6ih8evvQk4ZgqeERvzJPdM4AEpK8WkSJUO8CwBm0_Lj0lqpr7gZnoI9qhA=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "calendar",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Calendar",
+      "subtitle": "Neu Calendar – Easy planner",
+      "packageName": "com.andmobi.calendar",
+      "icon": "https://play-lh.googleusercontent.com/-jLTJgRuJ9QD6CzPsnPAnO_zodZd1xvXkFs-_9ENQViVs1sDZ1hXOMcV9S1ynEES6sn8N0pNbj6JSNwi3Lw-6mU=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "camera",
+      "enabled": true,
+      "priority": 2,
+      "title": "Neu Camera",
+      "subtitle": "Neu Camera – Photo & Video",
+      "packageName": "com.andmobi.camera",
+      "icon": "https://play-lh.googleusercontent.com/pN6lzSiuvkNBknd0iQ3HzILm4gqeluFTL9gYY5hbb7GuieUQgW2nDgh31Lrx8LBQTSVAs78CbPAtmKVGv2y62Q=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "applocker",
+      "enabled": true,
+      "priority": 2,
+      "title": "Smart AppLock",
+      "subtitle": "Smart AppLock – App Lock",
+      "packageName": "com.andmobi.applocker",
+      "icon": "https://play-lh.googleusercontent.com/KogtCcNSS5vSWK27X0WSJnTUb709Lj-qxYC_TZuQyqYdR0gq-fwvylxf7-VK8R81E-t5LDoXnb5vZCaP8RBc=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "music",
+      "enabled": true,
+      "priority": 3,
+      "title": "One2 Music",
+      "subtitle": "One2 Music & MP3 Player",
+      "packageName": "com.andmobi.music",
+      "icon": "https://play-lh.googleusercontent.com/jWHZzrwA0p7E5ICctuXcGk4l_NtmRuagm8Mr85BkTHo0_UHHkLuRccrFvTBgnaPlER6VZN8DaSkx03RFFDrRsQ=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "imusic",
+      "enabled": true,
+      "priority": 3,
+      "title": "Neu Player",
+      "subtitle": "Neu Player - Music & Lyrics",
+      "packageName": "com.vidxlab.music",
+      "icon": "https://play-lh.googleusercontent.com/ePPWhnGuNUIFUgk3z9fRjkgJ652lb4fa--K3buH10coobNB1hPs9WYsrVmsOuAu7N2X1wWSUsKCKxZFIBOOmUA=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "expanse",
+      "enabled": true,
+      "priority": 3,
+      "title": "Neu Expense",
+      "subtitle": "Neu Expense: Budget Tracker",
+      "packageName": "com.andmobi.expanse",
+      "icon": "https://play-lh.googleusercontent.com/udg9qDA3cxAXwIhzzH4wyxr2ZSqc7kWWUj4LYYkQT6jtFRngJK-U0HLoIWMO454Nhwu1wSeFj24l2KWF2LKOMpM=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "ifiles",
+      "enabled": true,
+      "priority": 3,
+      "title": "One2 Files",
+      "subtitle": "One2 Files: A File Manager",
+      "packageName": "com.one2labs.files",
+      "icon": "https://play-lh.googleusercontent.com/VeWMJPcmWnO9eMuMEX9N8QAofXwLQfOKbmBXCZ1xZYrWdxNVPjQXI-a-dCAxDiiVNDG4duyyHZ4uBXtcxHT7=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "pdftoolkit",
+      "enabled": true,
+      "priority": 3,
+      "title": "Neu PDF Tool",
+      "subtitle": "Neu PDF Tool Editor & Scanner",
+      "packageName": "com.one2labs.pdftoolkit",
+      "icon": "https://play-lh.googleusercontent.com/dwHEFCf_c9UcpxsH2KWPZTG9z8wLq-RUEbu-EvB9W17Aw-X9ltax84Ea9M76JkqDerIwMuvubAj3HwkrNM1ikg=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "compress",
+      "enabled": true,
+      "priority": 3,
+      "title": "Compress Video",
+      "subtitle": "Neu Compressor: Compress Video",
+      "packageName": "com.one2labs.compress",
+      "icon": "https://play-lh.googleusercontent.com/0ZXtFvrNVUgthigIz8IOK_eY_BpWfwAuGl-hGuJkS_cRFOFNKmerJT40Jeewk0LuLBoDvVuzxQEG6O_j16vGvQA=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "icompress",
+      "enabled": true,
+      "priority": 3,
+      "title": "Compress Image",
+      "subtitle": "Neu Compress Image – MB to KB",
+      "packageName": "com.one2labs.neucompress",
+      "icon": "https://play-lh.googleusercontent.com/Q0UBjb7Wgf2eYQas--sGRTLXJmWxjIO4Kiy8waUXhS1FsRT71lzbjcMCfzIjVoEWbUHrW1gNGQ9WZBoYEU9ORHE=w480-h960-rw",
+      "buttonText": "Install"
+    },
+    {
+      "id": "pomodoro",
+      "enabled": true,
+      "priority": 3,
+      "title": "Focus Timer",
+      "subtitle": "Neu Focus Timer – Pomodoro",
+      "packageName": "com.one2labs.pomodoro",
+      "icon": "https://play-lh.googleusercontent.com/4Qnpke3lV5eQBFWauEMvYdWSmFyj7Mf_T6hkHMk5MZP-yWtpTAhNsRj88yQOWc4n9j5kiSGhgY07nsLOtmn5h5I=w480-h960-rw",
+      "buttonText": "Install"
     }
   ]
 }
