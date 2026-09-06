@@ -14,7 +14,7 @@
     {
       "id": "reader",
       "enabled": true,
-      "priority": 2,
+      "priority": 1,
       "title": "Neu PDF & eBook Reader",
       "subtitle": "Read PDFs, EPUBs and comics offline.",
       "packageName": "com.lexora.reader",
@@ -22,39 +22,9 @@
       "buttonText": "Install"
     },
     {
-      "id": "gallery",
-      "enabled": true,
-      "priority": 3,
-      "title": "Gallery",
-      "subtitle": "Browse and organize your photos.",
-      "packageName": "com.vistia.gallery",
-      "icon": "https://play-lh.googleusercontent.com/e7a2RuIkwO9JQG9isThuDKQ3kfg3ZDWkdWOrsfgq3iRNVBtLC8V2F4DRYPywglkeBQpo05aIKMiHHJfUrI_mng=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
-      "id": "expanse",
-      "enabled": true,
-      "priority": 4,
-      "title": "Expanse",
-      "subtitle": "Track your expenses easily.",
-      "packageName": "com.andmobi.expanse",
-      "icon": "https://play-lh.googleusercontent.com/udg9qDA3cxAXwIhzzH4wyxr2ZSqc7kWWUj4LYYkQT6jtFRngJK-U0HLoIWMO454Nhwu1wSeFj24l2KWF2LKOMpM=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
-      "id": "pdftoolkit",
-      "enabled": true,
-      "priority": 5,
-      "title": "PDF Toolkit",
-      "subtitle": "All-in-one PDF tools.",
-      "packageName": "com.one2labs.pdftoolkit",
-      "icon": "https://play-lh.googleusercontent.com/dwHEFCf_c9UcpxsH2KWPZTG9z8wLq-RUEbu-EvB9W17Aw-X9ltax84Ea9M76JkqDerIwMuvubAj3HwkrNM1ikg=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
       "id": "cleaner",
       "enabled": true,
-      "priority": 6,
+      "priority": 1,
       "title": "Phone Cleaner",
       "subtitle": "Clean junk and free storage.",
       "packageName": "com.andmobi.cleaner",
@@ -64,7 +34,7 @@
     {
       "id": "hdplayer",
       "enabled": true,
-      "priority": 7,
+      "priority": 1,
       "title": "HD Player",
       "subtitle": "Play videos in high quality.",
       "packageName": "com.vidxlab.hdplayer",
@@ -74,12 +44,13 @@
     {
       "id": "dialer",
       "enabled": true,
-      "priority": 8,
+      "priority": 1,
       "title": "Phone Dialer",
       "subtitle": "Fast and simple calling experience.",
       "packageName": "com.andmobi.phone",
       "icon": "https://play-lh.googleusercontent.com/U6qiRuW-1GhhUHR5oVRHQuwcHCPxDKpTuqNauAJfrFAOIsy9YwCTXKoIOLBOaG6SXyRJiYCo2peUpkHiji_xYA=w480-h960-rw",
       "buttonText": "Install"
     }
+    
   ]
 }
