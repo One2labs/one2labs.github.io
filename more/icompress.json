@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "enabled": true,
+  "label": "Our Other Apps",
   "apps": [
     {
       "id": "phone",
