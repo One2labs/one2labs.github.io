@@ -155,7 +155,7 @@
 
     <div class="updated">
         <div class="developer">
-            <strong>Last updated:</strong> March 12, 2026
+            <strong>Last updated:</strong> November 10, 2026
         </div>
 
         <div class="developer">
@@ -299,17 +299,11 @@
     </p>
 
     <ul>
-        <li>
-            Processing in-app purchases through Google Play Billing.
-        </li>
-        <li>
-            Accessing optional online resources or support-related
-            functionality, where applicable.
-        </li>
-        <li>
-            Other functionality that may be introduced in future
-            versions of the App.
-        </li>
+        <li>Processing in-app purchases through Google Play Billing.</li>
+        <li>Accessing optional online resources or support-related functionality.</li>
+        <li>Loading and displaying advertisements.</li>
+        <li>Sending app and advertising analytics events.</li>
+        <li>Other functionality that may be introduced in future versions.</li>
     </ul>
 
     <p>
@@ -382,19 +376,96 @@
         phone numbers, or other private dialer data.
     </p>
 
+    <h3>Google Mobile Ads</h3>
+
     <p>
-        Neu Phone currently does <strong>not</strong> use advertising
-        SDKs, Firebase Analytics, or third-party analytics services
-        to collect information about your dialer activity.
+        Neu Phone may display banner, native, and interstitial advertisements
+        using the Google Mobile Ads SDK. When ads are requested, displayed,
+        or interacted with, Google and its advertising partners may process
+        information such as your IP address, device and advertising identifiers
+        (where available), device information, approximate location inferred
+        from IP address, ad delivery and interaction information, and
+        diagnostic data. The information processed depends on your device,
+        settings, consent choices, and the services enabled by Google.
+    </p>
+
+    <p>
+        Google may use this information to provide, measure, protect, and
+        improve advertising, including frequency capping, fraud prevention,
+        reporting, and (where permitted) personalized advertising. One2 Labs
+        does not receive your complete advertising profile. Advertising data
+        is processed by Google under Google's applicable terms and privacy
+        policy:
+        <a href="https://policies.google.com/privacy" target="_blank"
+           rel="noopener noreferrer">Google Privacy Policy</a>.
+    </p>
+
+    <h3>Firebase Analytics</h3>
+
+    <p>
+        Neu Phone uses <strong>Google Analytics for Firebase</strong> to
+        measure app and advertising-related events and understand how app
+        features are used. The App may send event information such as
+        <code>ad_impression</code> and <code>ad_click</code>, together with
+        event parameters including ad source, ad format, ad placement,
+        advertising unit ID, and (for suggested-app promotions) the relevant
+        suggested-app identifier.
+    </p>
+
+    <p>
+        Firebase and Google may also automatically collect certain app,
+        device, usage, and diagnostic information as described in Google's
+        documentation and policies. These analytics events are intended to
+        measure app and advertising activity. Neu Phone's ad analytics code
+        does not intentionally include your contacts, call history, or
+        phone numbers in these event parameters.
+    </p>
+
+    <p>
+        Analytics information is processed by Google in accordance with
+        Google's applicable terms and privacy policy. For more information,
+        see
+        <a href="https://firebase.google.com/support/privacy"
+           target="_blank" rel="noopener noreferrer">Firebase privacy and
+           security</a> and the
+        <a href="https://policies.google.com/privacy" target="_blank"
+           rel="noopener noreferrer">Google Privacy Policy</a>.
+    </p>
+
+    <h3>Consent and Advertising Preferences</h3>
+
+    <p>
+        Where required, Neu Phone uses Google's consent tools to request
+        and manage your choices before requesting ads. The availability
+        and type of consent choices may depend on your region and Google's
+        requirements. Your choices may affect whether ads are personalized
+        or non-personalized, and whether advertising requests can be made.
+    </p>
+
+    <p>
+        You can review or change advertising preferences through the
+        settings and privacy controls provided by Google and Android.
+        Choices made in those settings may affect advertising on this
+        device. For details, see
+        <a href="https://adssettings.google.com/" target="_blank"
+           rel="noopener noreferrer">Google Ads Settings</a>.
     </p>
 
     <h2>4. Data Sharing</h2>
 
     <p>
-        One2 Labs does not sell, rent, or otherwise share your
-        contacts, call history, phone numbers, or dialer-related
-        personal information with third parties for advertising,
-        marketing, or profiling purposes.
+        One2 Labs does not sell your contacts, call history, phone numbers,
+        or dialer-related personal information. These data are not included
+        in the advertising and analytics event parameters described in this
+        Policy.
+    </p>
+
+    <p>
+        Google processes advertising and analytics information when the
+        corresponding Google services are used. This processing is performed
+        by Google under its own terms and privacy policies. One2 Labs does
+        not use your contacts or call history to build advertising audiences
+        or to personalize ads.
     </p>
 
     <p>
@@ -427,7 +498,10 @@
     <p>
         Purchase-related records may be retained by Google Play
         according to Google's applicable policies and legal
-        requirements.
+        requirements. Advertising and analytics information collected
+        through Google services is retained and managed by Google under
+        its applicable policies, product settings, and retention controls.
+        One2 Labs does not control Google's independent retention periods.
     </p>
 
     <p>
@@ -470,10 +544,8 @@
     </p>
 
     <p>
-        <a
-            href="https://www.apache.org/licenses/LICENSE-2.0"
-            target="_blank"
-            rel="noopener noreferrer">
+        <a href="https://www.apache.org/licenses/LICENSE-2.0"
+           target="_blank" rel="noopener noreferrer">
             https://www.apache.org/licenses/LICENSE-2.0
         </a>
     </p>
