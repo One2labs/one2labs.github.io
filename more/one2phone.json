@@ -24,16 +24,6 @@
       "buttonText": "Install"
     },
     {
-      "id": "cleaner",
-      "enabled": true,
-      "priority": 1,
-      "title": "Phone Cleaner",
-      "subtitle": "Clean junk and free storage.",
-      "packageName": "com.andmobi.cleaner",
-      "icon": "https://play-lh.googleusercontent.com/bLzqBX6AjytOaGnTuZT0tG5gzfb8xNJn1b2vgRfG-PBtT4oHzVTG26kjb0hL7Val2Qo1MzuG2AHSnwam6CmMHqw=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
       "id": "hdplayer",
       "enabled": true,
       "priority": 1,
@@ -51,26 +41,6 @@
       "subtitle": "Fast and simple calling experience.",
       "packageName": "com.andmobi.phone",
       "icon": "https://play-lh.googleusercontent.com/U6qiRuW-1GhhUHR5oVRHQuwcHCPxDKpTuqNauAJfrFAOIsy9YwCTXKoIOLBOaG6SXyRJiYCo2peUpkHiji_xYA=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
-      "id": "bt",
-      "enabled": true,
-      "priority": 1,
-      "title": "BVC",
-      "subtitle": "Bluetooth Volume Control",
-      "packageName": "com.andmobi.volume",
-      "icon": "https://play-lh.googleusercontent.com/gXirkJ8LElzf91GrsBVJIs6lVJzxEsF_DgCEKQtApgkEaCA3XPtm0bGMmzSvwsNdx5msHWiNe5HQmDSlSIT4YGk=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
-      "id": "gallery",
-      "enabled": true,
-      "priority": 1,
-      "title": "AI Gallery",
-      "subtitle": "AI Gallery & Photo Vault",
-      "packageName": "com.vistia.gallery",
-      "icon": "https://play-lh.googleusercontent.com/e7a2RuIkwO9JQG9isThuDKQ3kfg3ZDWkdWOrsfgq3iRNVBtLC8V2F4DRYPywglkeBQpo05aIKMiHHJfUrI_mng=w480-h960-rw",
       "buttonText": "Install"
     },
     {
@@ -104,16 +74,6 @@
       "buttonText": "Install"
     },
     {
-      "id": "pdftoolkit",
-      "enabled": true,
-      "priority": 3,
-      "title": "Neu PDF Tool",
-      "subtitle": "Neu PDF Tool Editor & Scanner",
-      "packageName": "com.one2labs.pdftoolkit",
-      "icon": "https://play-lh.googleusercontent.com/dwHEFCf_c9UcpxsH2KWPZTG9z8wLq-RUEbu-EvB9W17Aw-X9ltax84Ea9M76JkqDerIwMuvubAj3HwkrNM1ikg=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
       "id": "compress",
       "enabled": true,
       "priority": 3,
@@ -121,16 +81,6 @@
       "subtitle": "Neu Compressor: Compress Video",
       "packageName": "com.one2labs.compress",
       "icon": "https://play-lh.googleusercontent.com/0ZXtFvrNVUgthigIz8IOK_eY_BpWfwAuGl-hGuJkS_cRFOFNKmerJT40Jeewk0LuLBoDvVuzxQEG6O_j16vGvQA=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
-      "id": "icompress",
-      "enabled": true,
-      "priority": 3,
-      "title": "Compress Image",
-      "subtitle": "Neu Compress Image – MB to KB",
-      "packageName": "com.one2labs.neucompress",
-      "icon": "https://play-lh.googleusercontent.com/Q0UBjb7Wgf2eYQas--sGRTLXJmWxjIO4Kiy8waUXhS1FsRT71lzbjcMCfzIjVoEWbUHrW1gNGQ9WZBoYEU9ORHE=w480-h960-rw",
       "buttonText": "Install"
     }
   ]
