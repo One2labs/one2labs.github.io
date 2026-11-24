@@ -64,16 +64,6 @@
       "buttonText": "Install"
     },
     {
-      "id": "gallery",
-      "enabled": true,
-      "priority": 1,
-      "title": "AI Gallery",
-      "subtitle": "AI Gallery & Photo Vault",
-      "packageName": "com.vistia.gallery",
-      "icon": "https://play-lh.googleusercontent.com/e7a2RuIkwO9JQG9isThuDKQ3kfg3ZDWkdWOrsfgq3iRNVBtLC8V2F4DRYPywglkeBQpo05aIKMiHHJfUrI_mng=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
       "id": "vidx",
       "enabled": true,
       "priority": 1,
@@ -121,16 +111,6 @@
       "subtitle": "Neu Compressor: Compress Video",
       "packageName": "com.one2labs.compress",
       "icon": "https://play-lh.googleusercontent.com/0ZXtFvrNVUgthigIz8IOK_eY_BpWfwAuGl-hGuJkS_cRFOFNKmerJT40Jeewk0LuLBoDvVuzxQEG6O_j16vGvQA=w480-h960-rw",
-      "buttonText": "Install"
-    },
-    {
-      "id": "icompress",
-      "enabled": true,
-      "priority": 3,
-      "title": "Compress Image",
-      "subtitle": "Neu Compress Image – MB to KB",
-      "packageName": "com.one2labs.neucompress",
-      "icon": "https://play-lh.googleusercontent.com/Q0UBjb7Wgf2eYQas--sGRTLXJmWxjIO4Kiy8waUXhS1FsRT71lzbjcMCfzIjVoEWbUHrW1gNGQ9WZBoYEU9ORHE=w480-h960-rw",
       "buttonText": "Install"
     }
   ]
